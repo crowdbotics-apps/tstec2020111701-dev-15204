@@ -7,6 +7,6 @@ export default BlankBlueprintNavigator = createStackNavigator(
     Blank: { screen: Blank }
   },
   {
-    initialRouteName: "SplashScreen"
+    initialRouteName: "Blank"
   }
 );
