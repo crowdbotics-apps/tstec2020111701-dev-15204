@@ -7,7 +7,7 @@ import LogoIcon from "../../assets/images/backgroundLoginV1.png";
 import {installed_blueprints} from "../../config/installed_blueprints";
 import {store} from "../../redux/store";
 import {styles} from './styles'
-import logo from "../../assets/icons/logo.png"
+import logo from "../../assets/icons/cb-icon.png"
 import {connect} from 'react-redux';
 
 class App extends Component {
