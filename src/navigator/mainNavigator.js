@@ -15,9 +15,10 @@ import BlankScreen014599Navigator from '../features/BlankScreen014599/navigator'
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
-BlankScreen114600: { screen: BlankScreen114600Navigator },
-BlankScreen014599: { screen: BlankScreen014599Navigator },
 
+BlankScreen014599: { screen: BlankScreen014599Navigator },
+BlankScreen114600: { screen: BlankScreen114600Navigator },
+    
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
