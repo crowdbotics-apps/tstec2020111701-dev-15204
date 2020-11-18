@@ -22,7 +22,7 @@ class App extends Component {
                 navigate
             }} = this.props;
         if(this.props.accessToken){
-          navigate("BlankScreen15599")
+          navigate("BlankScreen014599")
   //        navigate("MainApp")
           //navigate("EmailAuth");
         }
