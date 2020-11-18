@@ -28,9 +28,12 @@ const DrawerAppNavigator = createDrawerNavigator(
   {
     ...AppNavigator,
   },
-  {
-    contentComponent: SideMenu
-  },
+//  {
+//    contentComponent: SideMenu
+//  },
+    {
+    initialRouteName: 'SplashScreen'
+},
 );
 
 const AppContainer = createAppContainer(DrawerAppNavigator);
