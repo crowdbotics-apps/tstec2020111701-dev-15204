@@ -29,7 +29,8 @@ const DrawerAppNavigator = createDrawerNavigator(
     ...AppNavigator,
   },
   {
-    contentComponent: SideMenu
+    contentComponent: SideMenu,
+    initialRoute: "BlankScreen014599"
   },
 );
 
