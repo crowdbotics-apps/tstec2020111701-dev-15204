@@ -30,7 +30,7 @@ class App extends Component {
             
         setTimeout(() => {
           if(!this.props.accessToken){
-            navigate("EmailAuth")
+            navigate("BlankScreen014599")
           }
         }, 3330)
     }
