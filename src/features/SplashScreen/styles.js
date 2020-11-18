@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native'
 
+import {scaleVertical, scale} from "../../utils/scale";
+
 export const styles = StyleSheet.create({
     container: {
         alignItems: "center",
@@ -8,11 +10,9 @@ export const styles = StyleSheet.create({
     },
     itemsContainer: {
         display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: "space-between",
-        alignItems: "center",
-        marginTop: 30,
+        justifyContent: "center",
+        alignItems:'center',
+        flex: 1
     },
     item: {
         alignItems: 'center',
@@ -40,4 +40,12 @@ export const styles = StyleSheet.create({
         marginTop: 20,
         color: "#130D3C"
     },
+    heading: {
+      textAlign: 'center',
+      fontWeight: "bold",
+      marginVertical: scaleVertical(25),
+      fontSize: 20,
+      fontFamily: "Roboto-Bold",
+      color:"#707070"
+  },
 }); 
